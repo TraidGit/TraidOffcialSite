@@ -1,0 +1,71 @@
+# Node modules
+node_modules/
+
+# TypeScript build output
+dist/
+build/
+*.tsbuildinfo
+
+# Wrangler cache
+.wrangler/
+
+# Environment variables and local-only configs
+.env
+.env.*.local
+*.dev.vars
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Optional: if using jest
+jest.config.js
+jest.config.ts
+coverage/
+
+# Optional: if using parcel or other bundlers
+.cache/
+.parcel-cache/
+
+# Optional: local npm/yarn/pnpm config
+.npmrc
+.yarnrc
+.pnpm-debug.log
+
+# Optional: TypeDoc output
+docs/
+
+# Optional: if you're linking packages locally
+*.tgz
+
+# Optional: eslint cache
+.eslintcache
+
+# Optional: Turbo repo cache (if monorepo)
+turbo/
