@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
+import { Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
 
 const socialLinks = [
   { icon: <Linkedin className="w-6 h-6" />, href: 'https://www.linkedin.com/company/triadacademy/', label: 'LinkedIn', color: 'hover:text-blue-600' },

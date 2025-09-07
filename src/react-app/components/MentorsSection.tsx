@@ -1,8 +1,8 @@
 import { useState, useMemo } from 'react';
-import { mentors } from '@/react-app/data/about';
+import { Mentor, mentors } from '@/react-app/data/about';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const MentorCard = ({ mentor, delay }) => (
+const MentorCard = ({ mentor, delay }:{mentor:Mentor,delay:number}) => (
   <div 
     className="group bg-white rounded-2xl p-6 shadow-lg glow-cyan-hover transition-all duration-300 border border-frost-gray fade-in w-full sm:w-80 flex-shrink-0"
     style={{ animationDelay: `${delay * 0.1}s` }}

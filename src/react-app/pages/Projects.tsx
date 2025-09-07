@@ -1,6 +1,5 @@
 import ProjectsHeroSection from '@/react-app/components/ProjectsHeroSection';
 import AllProjectsSection from '@/react-app/components/AllProjectsSection';
-import StudentShowcaseTestimonials from '@/react-app/components/StudentShowcaseTestimonials';
 import ProjectsCTASection from '@/react-app/components/ProjectsCTASection';
 import Footer from '@/react-app/components/Footer';
 

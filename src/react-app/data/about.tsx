@@ -43,6 +43,12 @@ export const pyramidLayers = [
     level: "base"
   }
 ];
+export interface Mentor{
+  name:string,
+  expertise:string,
+  quote:string,
+  image:string,
+}
 
 // Mentors data
 export const mentors = [

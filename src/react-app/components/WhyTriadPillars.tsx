@@ -1,6 +1,7 @@
 import { programPillars } from '../data/whytriadData';
 
-const PillarCard = ({ icon, title, description, delay }) => (
+
+const PillarCard = ({ icon, title, description, delay }:{icon:React.ReactNode,title:string,description:string,delay:number}) => (
   <div 
     className="group bg-white rounded-2xl p-8 shadow-lg glow-cyan-hover transition-all duration-300 border border-frost-gray fade-in"
     style={{ animationDelay: `${delay * 0.15}s` }}

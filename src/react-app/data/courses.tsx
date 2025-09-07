@@ -5,6 +5,7 @@ import aimlicon from "@/icons/icons8-ai-100.png";
 // import { Code, Brain, Zap, Palette, Video, BarChart2 } from 'lucide-react';
 
 export interface Course {
+  id:number,
   category: string;
   title: string;
   description: string;
@@ -18,6 +19,7 @@ export interface Course {
 
 export const allCourses: Course[] = [
   {
+    id:1,
     category: "Programming",
     title: "45 Days of Python Mastery Course",
     description: "Learn Python from scratch to advanced in just 45 days with real-world projects, problem-solving, and DSA essentials—perfectly designed for career and interview preparation.",
@@ -35,6 +37,7 @@ export const allCourses: Course[] = [
     status: "Running"
   },
   {
+    id:2,
     category: "Programming",
     title: "45 Days of Java Mastery Course",
     description: "Master Java programming in 45 days, from fundamentals to advanced topics. This course is packed with practical projects and problem-solving to get you job-ready.",
@@ -52,6 +55,7 @@ export const allCourses: Course[] = [
     status: "Upcoming"
   },
   {
+    id:3,
     category: "Programming",
     title: "75 Days of AI & Machine Learning Mastery Course",
     description: "Learn Artificial Intelligence and Machine Learning from basics to advanced with real-world applications, hands-on projects, and interview preparation. Perfect for students and professionals aiming for AI/ML careers.",

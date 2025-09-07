@@ -1,6 +1,6 @@
-import { Github, Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
+import { Twitter, Linkedin, Youtube, Instagram } from 'lucide-react';
 import PyramidIcon from './PyramidIcon';
-import { href, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 
 export default function Footer() {
   const socialLinks = [
